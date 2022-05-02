@@ -17,10 +17,10 @@ html {
      transition: 300ms ease all;
      backface-visibility: hidden;
      min-height: calc(100% - 3.35rem);
-     margin-left: 260px;
+     margin-left: 0;
 }
  html .content.app-content {
-     padding: calc(2rem + 4.45rem + 1.3rem) 2rem 0;
+     padding: calc(2rem + 4.45rem* 2 + 1.3rem) 2rem 0 2rem;
 }
  html .content.app-content .content-overlay {
      position: fixed;
