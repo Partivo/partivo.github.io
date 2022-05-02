@@ -267,7 +267,7 @@ footer {
 
 .header-navbar.navbar-brand-center .navbar-header {
 	position: absolute;
-	left: calc(50% - 80px);
+	left: calc(50% - 70px);
 	padding: 0;
 	z-index: 1000;
 }
@@ -326,7 +326,7 @@ footer {
 
 .header-navbar.navbar-brand-center .navbar-header .navbar-brand .brand-text {
     color: #7367f0;
-    padding-left: 1rem;
+    padding-left: 5px;
     margin-bottom: 0;
     font-weight: 600;
     letter-spacing: .01rem;
