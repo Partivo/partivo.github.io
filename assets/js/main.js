@@ -8,7 +8,7 @@ function writeData(data) {
 			partivoHtml += '<div class="card-body">';
 				partivoHtml += '<h4 class="card-title">' + element.name + '</h4>';
 				partivoHtml += '<p class="card-text">' + element.description + '</p>';
-				partivoHtml += '<a href="' + element.html_url + '" class="btn btn-outline-primary">Go To Project</a>';
+				partivoHtml += '<a href="' + element.html_url + '" target="_blank" class="btn btn-outline-primary">Go To Project</a>';
 			partivoHtml += '</div>';
 		partivoHtml += '</div></div>';
 	});
