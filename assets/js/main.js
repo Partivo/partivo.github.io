@@ -18,7 +18,7 @@ function writeData(data) {
 	setTimeout(function() {
 		document.getElementById("root").style.display = "block"
 		document.getElementById("loading").style.display = "none";
-	}, 5000);
+	}, 3000);
 }
 
 function randomString(len, charSet) {
