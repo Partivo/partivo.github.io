@@ -323,3 +323,12 @@ footer {
 		padding: calc(4.45rem + calc(2rem - 0.8rem)) calc(2rem - 0.8rem) 0 calc(2rem - 0.8rem) !important;
 	}
 }
+
+.header-navbar.navbar-brand-center .navbar-header .navbar-brand .brand-text {
+    color: #7367f0;
+    padding-left: 1rem;
+    margin-bottom: 0;
+    font-weight: 600;
+    letter-spacing: .01rem;
+    font-size: 1.45rem;
+}
