@@ -564,12 +564,6 @@ button:not(:disabled),
 	}
 }
 
-@media (min-width: 1200px) {
-	.d-xl-block {
-		display: block !important;
-	}
-}
-
 a:focus {
 	outline: none;
 }
