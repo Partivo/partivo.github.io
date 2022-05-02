@@ -541,6 +541,10 @@ button:not(:disabled),
 	margin-top: 0.25rem !important;
 }
 
+.me-75 {
+    margin-right: .75rem!important;
+}
+
 .mb-0 {
 	margin-bottom: 0 !important;
 }
