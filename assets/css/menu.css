@@ -1,7 +1,3 @@
-.content {
-	margin-left: 0;
-}
-
 .navbar.header-navbar .navbar-container {
 	padding: 0.8rem 2rem;
 }
@@ -91,10 +87,6 @@ footer {
 	.navbar-floating .header-navbar-shadow {
 		top: 45px;
 	}
-}
-
-.navbar-floating:not(.blank-page) .app-content {
-	padding: calc(2rem + 4.45rem* 2 + 1.3rem) 2rem 0 2rem;
 }
 
 .navbar-floating .menu-wrapper {
