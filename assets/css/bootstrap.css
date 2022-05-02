@@ -699,10 +699,6 @@ a:focus {
 	background: #fff;
 }
 
-.navbar-light.navbar-horizontal {
-	background: #fff;
-}
-
 @media (max-width: 767.98px) {
 	.navbar-light .navbar-container .navbar-nav .nav-link {
 		color: #b8c2cc;
@@ -750,7 +746,7 @@ a:focus {
 		left: 0;
 	}
 
-	.horizontal-layout .header-navbar .navbar-container {
+	.header-navbar .navbar-container {
 		padding-left: 0.8rem;
 		padding-right: 0.8rem;
 	}
