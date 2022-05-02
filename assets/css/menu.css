@@ -51,7 +51,7 @@ footer {
 
 .header-navbar.navbar-brand-center .navbar-header {
 	position: absolute;
-	left: calc(50% - 56px);
+	left: calc(50% - 80px);
 	padding: 0;
 	z-index: 1000;
 }
