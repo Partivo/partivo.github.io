@@ -15,8 +15,9 @@ function writeData(data) {
 	partivoHtml += '</div>';
 	document.getElementById("card-open-source").innerHTML = partivoHtml;
 	
-	document.getElementById("root").style.display = "block"
-	document.getElementById("loading").style.display = "none";
+	setTimeout(function() {
+		document.getElementById("loading").style.display = "none";
+	}, 3000);
 }
 
 function randomString(len, charSet) {
