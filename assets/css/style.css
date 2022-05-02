@@ -1,5 +1,8 @@
+#root {
+     display: none;
+}
  #loading {
-     z-index: 9999;
+     display: block;
 }
  .fallback-spinner.app-loader {
      height: 100vh;
