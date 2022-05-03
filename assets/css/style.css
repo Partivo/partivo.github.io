@@ -126,10 +126,6 @@ body:after {
 	display: none;
 }
 
-#loading {
-	display: block;
-}
-
 .fallback-spinner.app-loader {
 	height: 100vh;
 	flex-direction: column;
