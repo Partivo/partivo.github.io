@@ -16,7 +16,7 @@ function writeData(data) {
 	document.getElementById("card-open-source").innerHTML = partivoHtml;
 	
 	setTimeout(function() {
-		document.getElementById("loading").remove();
+		document.querySelector(".fallback-spinner").remove();
 		document.getElementById("root").style.display = "block";
 	}, 3000);
 }
