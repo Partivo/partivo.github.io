@@ -122,10 +122,6 @@ body:after {
 	display: none;
 }
 
-#root {
-	display: none;
-}
-
 .fallback-spinner {
 	height: 100vh;
 	display: flex;
