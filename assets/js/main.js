@@ -14,11 +14,11 @@ function writeData(data) {
 	});
 	partivoHtml += '</div>';
 	document.getElementById("card-open-source").innerHTML = partivoHtml;
-	
-	setTimeout(function() {
+
+	document.addEventListener("load", function(){
 		document.getElementById("root").style.display = "block";
 		document.getElementsByClassName("fallback-spinner")[0].remove();
-	}, 3000);
+	});
 }
 
 function getRandomStrings(length) {
