@@ -15,10 +15,10 @@ function writeData(data) {
 	partivoHtml += '</div>';
 	document.getElementById("card-open-source").innerHTML = partivoHtml;
 
-	document.addEventListener("load", function(){
+	window.onload = function() {
 		document.getElementById("root").style.display = "block";
-		document.getElementsByClassName("fallback-spinner")[0].remove();
-	});
+		document.getElementsByClassName("fallback-spinner")[0].remove();	
+	};
 }
 
 function getRandomStrings(length) {
