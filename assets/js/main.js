@@ -2,8 +2,8 @@ fetch('https://api.github.com/orgs/Partivo/repos').then(response => response.jso
 function writeData(data) {
 	let partivoHtml = [];
 	partivoHtml += '<div class="row match-height">';
-	data.reverse();
-	data.map((element) => {
+	const dataReverse = data.reverse();
+	dataReverse.map((element) => {
 		partivoHtml += '<div class="col-md-6 col-lg-4"><div class="card">';
 			partivoHtml += '<img class="card-img-top" src="https://opengraph.githubassets.com/' + getRandomStrings(64) + '/' + element.full_name + '" alt="' + element.name + '" />';
 			partivoHtml += '<div class="card-body">';
