@@ -4,7 +4,7 @@ function writeData(data) {
 	
 	let partivoHtml = [];
 	partivoHtml += '<div class="row match-height">';
-	dataReverse.map((element) => {
+	data.map((element) => {
 		partivoHtml += '<div class="col-md-6 col-lg-4"><div class="card">';
 			partivoHtml += '<img class="card-img-top" src="https://opengraph.githubassets.com/' + getRandomStrings(64) + '/' + element.full_name + '" alt="' + element.name + '" />';
 			partivoHtml += '<div class="card-body">';
